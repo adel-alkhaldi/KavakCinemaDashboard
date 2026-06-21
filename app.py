@@ -115,8 +115,8 @@ PROFIT_SODA = df['Profit per Soda'].iloc[0]
 PROFIT_FOOD = df['Profit per Food'].iloc[0]
 
 # --- SIDEBAR: INTERACTIVE LEVERS ---
-st.sidebar.title("🎛️ Execution Levers")
-st.sidebar.markdown("Adjust the variables to model the +20% recovery target.")
+st.sidebar.title("Interactive Section")
+st.sidebar.markdown("There are many ways we can hit our targets, experiment with all the variables to find the most suitable way.")
 
 target_rate = st.sidebar.slider("🎯 Target Profit Growth Rate", min_value=0.0, max_value=0.50, value=0.20, step=0.01, format="%.2f")
 
