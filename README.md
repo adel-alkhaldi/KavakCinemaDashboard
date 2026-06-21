@@ -17,7 +17,7 @@ An interactive Streamlit dashboard for simulating and analyzing profit recovery 
 
 2. **Run the dashboard**:
    ```bash
-   streamlit run app.py
+   streamlit run app.py / python -m streamlit run app.py
    ```
 
 3. **Open in browser**: The app will automatically open at `http://localhost:8501`
